@@ -31,7 +31,7 @@ jobs:
       # specify the version you desire here
       - image: circleci/openjdk:9-jdk-node-browsers
         environment:
-          CC_TEST_REPORTER_ID: $CC_TEST_REPORTER_ID
+          CC_TEST_REPORTER_ID: 8909da91af33f20dd84c917ecb05e14a4b9488b449619b9347372fb9ea4ed320
           COVERALLS_REPO_TOKEN: $COVERALLS_REPO_TOKEN
           CODACY_PROJECT_TOKEN: $CODACY_PROJECT_TOKEN
       
